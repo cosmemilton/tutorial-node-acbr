@@ -1,0 +1,19 @@
+{
+  "name": "tutorial-node-acbr",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "dependencies": {
+    "cosmemilton-acbr-node": "0.1.2"
+  },
+  "scripts": {
+    "test": "node --test",
+    "verificar": "node 02-windows/verificar.mjs",
+    "aula5": "node 05-xml-local/gerar-local.mjs",
+    "aula6": "node 06-diagnostico/tratar-erro-local.mjs",
+    "aula7": "node 07-aplicacao/app.mjs"
+  }
+}
