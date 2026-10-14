@@ -1,6 +1,6 @@
 # Tutorial Node + ACBr
 
-Arquivos de apoio para as sete aulas, em português. SDK fixado em **cosmemilton-acbr-node 0.1.2**, com lockfile e runtime opcional da plataforma. Exemplos pequenos, executados pelo terminal, sem servidor ou framework.
+Arquivos de apoio para as oito aulas, em português. SDK fixado em **cosmemilton-acbr-node 0.1.2**, com lockfile e runtime opcional da plataforma. Exemplos pequenos, executados pelo terminal, sem servidor ou framework.
 
 > Exercício exclusivamente local com dados sintéticos públicos. Não usar os identificadores de teste em produção. Não configura certificado A1 ou CSC, não assina, não transmite e não consulta a SEFAZ. Gerar XML não comprova validade fiscal, validação de schema ou autorização de uso.
 
@@ -13,6 +13,7 @@ Arquivos de apoio para as sete aulas, em português. SDK fixado em **cosmemilton
 5. [Geração de XML local](05-xml-local/README.md)
 6. [Diagnóstico, data inválida e recuperação](06-diagnostico/README.md)
 7. [Aplicação: fixture, serviço e entrada](07-aplicacao/README.md)
+8. [Preparação para homologação e preflight local](08-homologacao/README.md)
 
 ## Começar
 
