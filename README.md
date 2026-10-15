@@ -1,6 +1,6 @@
 # Tutorial Node + ACBr
 
-Arquivos de apoio para as nove aulas, em português. SDK fixado em **cosmemilton-acbr-node 0.1.2**, com lockfile e runtime opcional da plataforma. Exemplos pequenos, executados pelo terminal, sem servidor ou framework.
+Arquivos de apoio para as dez aulas, em português. SDK fixado em **cosmemilton-acbr-node 0.1.2**, com lockfile e runtime opcional da plataforma. Exemplos pequenos, executados pelo terminal, sem servidor ou framework.
 
 > Exercício exclusivamente local com dados sintéticos públicos. Não usar os identificadores de teste em produção. Não configura certificado A1 ou CSC, não assina, não transmite e não consulta a SEFAZ. Gerar XML não comprova validade fiscal, validação de schema ou autorização de uso.
 
@@ -15,6 +15,7 @@ Arquivos de apoio para as nove aulas, em português. SDK fixado em **cosmemilton
 7. [Aplicação: fixture, serviço e entrada](07-aplicacao/README.md)
 8. [Preparação para homologação e preflight local](08-homologacao/README.md)
 9. [Assinatura, retorno de homologação e nfeProc: simulação segura](09-homologacao/README.md)
+10. [Estado da aplicação, persistência local e checklist final](10-estado-local/README.md)
 
 ## Começar
 
@@ -38,6 +39,7 @@ Sequência esperada na aula 7: códigos de saída **0, 1, 0**. A execução com 
 ## Origem e limites
 
 - Aulas 5 e 6: recuperadas dos arquivos de captura; adaptação da aula 6 documentada na pasta.
+- Aula 10: simulação de estado persistido pela aplicação, com bloqueio de repetição, testes de reinício e checklist final; sem SDK ou operação fiscal, limitada a um processo por diretório.
 - Aula 9: demonstração criada do zero com estados simulados e indicadores booleanos; sem SDK, certificado, XML real ou comunicação fiscal.
 - Aula 7: exemplo equivalente reconstruído a partir do roteiro, sem alegar identidade com o código filmado.
 - Aulas 1–4: guias de apoio reconstituídos do contrato da versão 0.1.2; não são transcrições dos vídeos.
